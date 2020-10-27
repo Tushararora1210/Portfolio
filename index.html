@@ -30,9 +30,9 @@
             <img src="images/1.jpg" id="Homeimg">
             <span id="radiobuttons">
                 <form>
-                <input type="radio" name="image" id="one" checked="checked" >
-                <input type="radio" name="image" id="two" >
-                <input type="radio" name="image" id="three">
+                <input type="radio" name="image" id="one" checked="checked" onclick="changemanual(1)" >
+                <input type="radio" name="image" id="two"  onclick="changemanual(2)">
+                <input type="radio" name="image" id="three" onclick="changemanual(3)">
                 </form>
             </span>
             
@@ -106,8 +106,25 @@
                 change();
                
             }
+            function changemanual(out)
+            {
+                if(out==1)
+                {
+                    document.getElementById("one").checked=true;
+                }
+                else if(out==2)
+                {
+                    document.getElementById("two").checked=true;
+                }
+                else
+                {
+                    document.getElementById("three").checked=true;
+                }
+                change();
+            }
             //change();
            setInterval(displayquotes,100,quotes);
+          
             
             </script>
     </body>
