@@ -1,0 +1,65 @@
+/*Reseting margin*/
+body
+{
+    margin:0 0;
+}
+.navbar
+{
+    display:flex;
+    background-color: gainsboro;
+    justify-content: space-between;
+   
+}
+#logo > img
+{
+border-radius: 50%;
+width:30%;
+
+}
+#menu >ul
+{
+    list-style: none;
+    display:flex;
+}
+#menu >ul>li
+{
+    padding:1vw;
+    font-family: 'Anton', sans-serif;
+    color:rgba(154, 158, 155, 0.24);
+    font-size: 2vw;
+}
+#Home
+{
+    background-color: whitesmoke;
+}
+#Home >img
+{
+    margin-left:35vw;
+    margin-right:35vw;
+    margin-top:1vh;
+    width:25%;
+
+  
+}
+#quotes
+{
+    margin-left:35vw;
+    margin-right:35vw;
+    margin-top:0.1vh;
+    width:25%;
+    font-family: 'Anton', sans-serif;
+        font-size: 1.2vw;
+
+  
+}
+#radiobuttons
+{
+    display:flex;
+    flex-wrap: nowrap;
+    margin-left:42vw;
+    margin-right:42vw;
+    padding:2vw;
+    margin-top:2vh;
+    padding:2vw;
+}
+
