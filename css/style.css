@@ -55,9 +55,8 @@ width:30%;
 #radiobuttons
 {
     display:flex;
-    flex-wrap: wrap;
+    flex-wrap: no-wrap;
     margin-left:42vw;
-    margin-right:42vw;
     padding:2vw;
     margin-top:2vh;
     padding:2vw;
